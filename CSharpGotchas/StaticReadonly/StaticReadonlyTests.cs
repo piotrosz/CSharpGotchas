@@ -10,11 +10,11 @@ namespace CSharpGotchas.StaticReadonly
         {
             var wrapper = new ScoreInfoWrapperStaticReadOnly();
 
-            wrapper.CalculateScore();
+            wrapper.Increment();
             wrapper.Score.Should().Be(0);
-            wrapper.CalculateScore();
+            wrapper.Increment();
             wrapper.Score.Should().Be(0);
-            wrapper.CalculateScore();
+            wrapper.Increment();
             wrapper.Score.Should().Be(0);
         }
 
@@ -23,11 +23,11 @@ namespace CSharpGotchas.StaticReadonly
         {
             var wrapper = new ScoreInfoWrapperStatic();
 
-            wrapper.CalculateScore();
+            wrapper.Increment();
             wrapper.Score.Should().Be(1);
-            wrapper.CalculateScore();
+            wrapper.Increment();
             wrapper.Score.Should().Be(2);
-            wrapper.CalculateScore();
+            wrapper.Increment();
             wrapper.Score.Should().Be(3);
         }
 

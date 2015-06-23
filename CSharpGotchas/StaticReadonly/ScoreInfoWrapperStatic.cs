@@ -4,7 +4,7 @@ namespace CSharpGotchas.StaticReadonly
     {
         private static Score score = new Score();
 
-        public void CalculateScore()
+        public void Increment()
         {
             score.Increment();
         }
