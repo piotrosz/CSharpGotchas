@@ -2,19 +2,10 @@ using System;
 using FluentAssertions;
 using Xunit;
 
-namespace CSharpGothas.RethrowingException
+namespace CSharpGotchas.RethrowingException
 {
     public class RethrowingExceptionTests
     {
-        class MyClass
-        {
-            public void ThrowException()
-            {
-                int zero = 0;
-                var result = 1 / zero;
-            }
-        }
-
         [Fact]
         public void exception_thrown_with_full_stack_trace()
         {

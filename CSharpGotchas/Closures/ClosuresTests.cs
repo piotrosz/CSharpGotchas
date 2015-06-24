@@ -109,19 +109,5 @@ namespace CSharpGotchas.Closures
             result5.Inside.Should().Be(1);
             result5.Outside.Should().Be(4);
         }
-
-        class Pair
-        {
-            private readonly Tuple<int, int> pair;
-
-            public Pair(int inside, int outside)
-            {
-                this.pair = new Tuple<int, int>(inside, outside);
-            }
-
-            public int Inside { get { return this.pair.Item1; } }
-
-            public int Outside { get { return this.pair.Item2; } }
-        }
     }
 }

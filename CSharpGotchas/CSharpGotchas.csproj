@@ -61,14 +61,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArraysCovariance\ArraysCovarianceTests.cs" />
+    <Compile Include="ArraysCovarianceTests.cs" />
     <Compile Include="Closures\ClosuresTests.cs" />
+    <Compile Include="Closures\Pair.cs" />
     <Compile Include="GetTypeOnNullableTypeTests.cs" />
     <Compile Include="LinqDeferredExecutionTests.cs" />
     <Compile Include="NewVsOverride\ClassBase.cs" />
     <Compile Include="NewVsOverride\ClassDerived.cs" />
     <Compile Include="NewVsOverride\NewVsOverrideTests.cs" />
-    <Compile Include="OptionalParams\OptionalParamsTests.cs" />
+    <Compile Include="Overloading\Base.cs" />
+    <Compile Include="Overloading\Derived.cs" />
     <Compile Include="Overloading\OverloadingTests.cs" />
     <Compile Include="OrderByDescending\MaximalComparer.cs" />
     <Compile Include="OrderByDescending\OrderByDescendingTests.cs" />
@@ -76,6 +78,7 @@
     <Compile Include="PassingReferenceTypeAsArgument\PassingReferenceTypeAsArgumentTests.cs" />
     <Compile Include="PassingReferenceTypeAsArgument\SampleReferenceType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RethrowingException\MyClass.cs" />
     <Compile Include="RethrowingException\RethrowingExceptionTests.cs" />
     <Compile Include="StaticReadonly\Score.cs" />
     <Compile Include="StaticReadonly\ScoreInfoWrapperStaticConstructor.cs" />

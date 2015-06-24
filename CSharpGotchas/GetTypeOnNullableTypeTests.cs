@@ -1,7 +1,7 @@
 using FluentAssertions;
 using Xunit;
 
-namespace CSharpGothas
+namespace CSharpGotchas
 {
     public class GetTypeOnNullableTypeTests
     {
