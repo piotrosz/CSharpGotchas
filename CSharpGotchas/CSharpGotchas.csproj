@@ -65,6 +65,8 @@
     <Compile Include="NewVsOverride\ClassBase.cs" />
     <Compile Include="NewVsOverride\ClassDerived.cs" />
     <Compile Include="NewVsOverride\NewVsOverrideTests.cs" />
+    <Compile Include="OrderByDescending\MaximalComparer.cs" />
+    <Compile Include="OrderByDescending\OrderByDescendingTests.cs" />
     <Compile Include="PassingReferenceTypeAsArgument\ArgumentsTester.cs" />
     <Compile Include="PassingReferenceTypeAsArgument\PassingReferenceTypeAsArgumentTests.cs" />
     <Compile Include="PassingReferenceTypeAsArgument\SampleReferenceType.cs" />
