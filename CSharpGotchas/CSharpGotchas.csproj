@@ -63,9 +63,12 @@
   <ItemGroup>
     <Compile Include="ArraysCovariance\ArraysCovarianceTests.cs" />
     <Compile Include="Closures\ClosuresTests.cs" />
+    <Compile Include="GetTypeOnNullableTypeTests.cs" />
+    <Compile Include="LinqDeferredExecutionTests.cs" />
     <Compile Include="NewVsOverride\ClassBase.cs" />
     <Compile Include="NewVsOverride\ClassDerived.cs" />
     <Compile Include="NewVsOverride\NewVsOverrideTests.cs" />
+    <Compile Include="OptionalParams\OptionalParamsTests.cs" />
     <Compile Include="Overloading\OverloadingTests.cs" />
     <Compile Include="PassingReferenceTypeAsArgument\ArgumentsTester.cs" />
     <Compile Include="PassingReferenceTypeAsArgument\PassingReferenceTypeAsArgumentTests.cs" />
