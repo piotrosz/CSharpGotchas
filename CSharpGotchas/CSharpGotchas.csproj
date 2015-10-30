@@ -65,6 +65,8 @@
     <Compile Include="Closures\ClosuresTests.cs" />
     <Compile Include="Closures\Pair.cs" />
     <Compile Include="GetTypeOnNullableTypeTests.cs" />
+    <Compile Include="Init\InitTests.cs" />
+    <Compile Include="Init\SampleClass.cs" />
     <Compile Include="LinqDeferredExecutionTests.cs" />
     <Compile Include="NewVsOverride\ClassBase.cs" />
     <Compile Include="NewVsOverride\ClassDerived.cs" />
