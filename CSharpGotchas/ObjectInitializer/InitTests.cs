@@ -2,12 +2,12 @@
 using FluentAssertions;
 using Xunit;
 
-namespace CSharpGotchas.Init
+namespace CSharpGotchas.ObjectInitializer
 {
     public class InitTests
     {
         [Fact]
-        public void when_exception_is_thrown_during_shorthand_init_then_object_is_null()
+        public void when_exception_is_thrown_while_using_object_initializer_then_object_is_null()
         {
             SampleClass target = null;
 
@@ -23,7 +23,7 @@ namespace CSharpGotchas.Init
         }
 
         [Fact]
-        public void when_exception_is_thrown_during_init_then_object_is_not_null()
+        public void when_exception_is_thrown_while_using_regular_constructor_then_object_is_not_null()
         {
             SampleClass target = null;
 

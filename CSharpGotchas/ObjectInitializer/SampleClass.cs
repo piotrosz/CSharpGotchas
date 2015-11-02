@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSharpGotchas.Init
+namespace CSharpGotchas.ObjectInitializer
 {
     public class SampleClass
     {
