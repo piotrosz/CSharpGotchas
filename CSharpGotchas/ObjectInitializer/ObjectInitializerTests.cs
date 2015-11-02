@@ -4,7 +4,7 @@ using Xunit;
 
 namespace CSharpGotchas.ObjectInitializer
 {
-    public class InitTests
+    public class ObjectInitializerTests
     {
         [Fact]
         public void when_exception_is_thrown_while_using_object_initializer_then_object_is_null()
@@ -13,6 +13,7 @@ namespace CSharpGotchas.ObjectInitializer
 
             try
             {
+                // Y = 2 will throw exception
                 target = new SampleClass { X = 1, Y = 2 };
             }
             catch
@@ -31,7 +32,7 @@ namespace CSharpGotchas.ObjectInitializer
             {
                 target = new SampleClass();
                 target.X = 1;
-                target.Y = 2;
+                target.Y = 2; // This throws exception
             }
             catch
             {
