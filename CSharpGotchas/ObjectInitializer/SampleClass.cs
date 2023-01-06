@@ -8,8 +8,8 @@ namespace CSharpGotchas.ObjectInitializer
 
         public int Y
         {
-            get { return -1; } 
-            set { throw new NotImplementedException(); }
+            get => -1;
+            set => throw new NotImplementedException();
         }
     }
 }

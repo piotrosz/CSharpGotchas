@@ -23,7 +23,7 @@ namespace CSharpGotchas.RethrowingException
             };
 
             throwingException
-                .ShouldThrow<DivideByZeroException>()
+                .Should().Throw<DivideByZeroException>()
                 .And.StackTrace.Should().Contain(".MyClass.ThrowException()");
         }
 
@@ -44,7 +44,7 @@ namespace CSharpGotchas.RethrowingException
             };
 
             throwingException
-                .ShouldThrow<DivideByZeroException>()
+                .Should().Throw<DivideByZeroException>()
                 .And.StackTrace.Should().NotContain(".MyClass.ThrowException()");
         }
     }

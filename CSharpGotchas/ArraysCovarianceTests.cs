@@ -13,13 +13,13 @@ namespace CSharpGotchas
             object[] objectNames = names;
 
             Action assign1 = () => objectNames[0] = "hello";
-            assign1.ShouldNotThrow();
+            assign1.Should().NotThrow();
 
             Action assign2 = () => objectNames[1] = new object();
-            assign2.ShouldThrow<ArrayTypeMismatchException>();
+            assign2.Should().NotThrow<ArrayTypeMismatchException>();
 
             Action assign3 = () => objectNames[1] = 1;
-            assign3.ShouldThrow<ArrayTypeMismatchException>();
+            assign3.Should().NotThrow<ArrayTypeMismatchException>();
         }
     }
 }
